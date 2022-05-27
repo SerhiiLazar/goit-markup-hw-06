@@ -643,6 +643,52 @@ a {
 .footer-social-icon {
     fill: var(--white);
 }
+
+        /* FOOTER-FORM */
+.right-side-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
+    
+}
+
+.rigth-side-form {
+    display: flex;
+}
+
+.footer-form-input>[placeholder] {
+    color:rgba( 33, 150, 243, 0.9);
+    
+}
+
+.footer-form-input {
+    display: inline-block;
+    background-color: inherit;
+    width: 358px;
+    height: 50px;  
+    padding: 15px;
+    padding-left: 16px;
+    margin-right: 12px; 
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: rgba(255, 255, 255, 0.6);
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    border-radius: 4px;
+}
+
+.footer-form-submit {
+    background-color: var(--active);
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
                     /* PORTFOLIO */
 
     /* main-header */
