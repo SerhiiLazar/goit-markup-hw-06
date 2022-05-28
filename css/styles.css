@@ -316,12 +316,46 @@ a {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    position: relative;
 }
+
+.modal-group.modal-teatarea {
+    margin-bottom: 20px;
+}
+
+.modal-name {
+    margin-bottom: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+
+    color: var(--text);
+}
+
 .modal-input {
     width: 448px;
     height: 40px;
+    padding-left: 42px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    
 }
 
+.form-comment {
+    width: 448px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+}
+
+.form-icons {
+    position: absolute;
+    top: 27px;
+    left: 12px;
+}
 
 .backdrop-btn {
     display: block;
@@ -348,6 +382,27 @@ a {
 
     background-color: var(--white);
     border: none;
+}
+
+.modal-policy {
+    margin-bottom: 30px;
+}
+
+.form-policy-desc>.form-policy-link {
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    color: var(--active);
+}
+
+.footer-form-submit.submit-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
 }
 
 
@@ -720,6 +775,7 @@ a {
     padding-left: 28px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: background-color 250ms var(--time-function);
+    background-color: var(--active);
     border-radius: 4px;
     border: none;
     cursor: pointer;
