@@ -64,6 +64,36 @@
                         <use href="./images/icons.svg#icon-close-black"></use>
                     </svg>
                 </button>
+                
+                <form class="modal-form" action="">
+                    <strong class="form-title">Оставьте свои данные, мы вам перезвоним</strong>
+                    <label class="modal-group" for="">
+                        <span class="modal-name">Имя</span>
+                        <input class="modal-input" type="text" name="user-name" placeholder=" " required>
+                    </label>
+                    <label class="modal-group" for="">
+                        <span class="modal-name">Телефон</span>
+                        <input class="modal-input" type="phone" name="user-phone" placeholder=" " required>
+                    </label>
+                    <label class="modal-group" for="">
+                        <span class="modal-name">Почта</span>
+                        <input class="modal-input" type="mail" name="user-mail" placeholder=" " required>
+                    </label>
+                    <label class="modal-group" for="">
+                        <span class="modal-name">Комментарий</span>
+                        <textarea name="comment" id="" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                    </label>
+                    <label class="modal-policy" for="">
+                        <input class="checkbox" type="checkbox">
+                        <span></span>
+                        <span class="form-policy-desc"
+                    >Соглашаюсь с
+                    <a class="form-policy-link" href="">Политикой использования</a>
+                    данных</span
+                  >
+                    <button type="submit">Отправить</button>
+                    </label>
+                </form>
             </div>
         </div>
         <!-- inform -->
@@ -407,13 +437,12 @@
                             <span class="submit-icons">
                                 <svg class="submit-icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-icon-send"></use>
-                                </svg>    
+                                </svg>
                             </span>
                         </button>
-                        
                     </form>
                 </div>
-                </div>
+            </div>
         </div>
     </footer>
     <script src="./js/modal.js"></script>

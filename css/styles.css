@@ -296,6 +296,32 @@ a {
 
 }
 
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.form-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--favorit);
+    margin-bottom: 12px;
+}
+
+.modal-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.modal-input {
+    width: 448px;
+    height: 40px;
+}
+
 
 .backdrop-btn {
     display: block;
@@ -687,7 +713,6 @@ a {
 }
 
 .footer-form-submit {
-    background-color: var(--active);
     position: relative;
     width: 200px;
     height: 50px;
